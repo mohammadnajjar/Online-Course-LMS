@@ -1,0 +1,9 @@
+2022-03-16T19:49:37+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\laragon\www\Online-Course-LMS\wp-content\plugins\elementor\includes\template-library\manager.php:457
+Stack trace:
+#0 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#1 C:\laragon\www\Online-Course-LMS\wp-content\plugins\elementor\includes\template-library\manager.php(550): call_user_func(Array, Array)
+#2 C:\laragon\www\Online-Course-LMS\wp-content\plugins\elementor\includes\template-library\manager.php(582): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#3 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 C:\laragon\www\Online-Course-LMS\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\laragon\www\Online-Course-LMS\wp-includes\class-wp-hook.php(307): Elementor\Co in C:\laragon\www\Online-Course-LMS\wp-content\plugins\elementor\includes\template-library\manager.php on line 457
+
